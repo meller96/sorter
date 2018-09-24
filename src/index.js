@@ -1,11 +1,11 @@
 class Sorter {
 
     constructor() {
-        this.arr=[];
-        this.comparator = function(left, right) {
+        this.arr = [];
+        this.comparator = function (left, right) {
             return left - right;
+        }
     }
-
     add(element) {
         this.arr.push(element);
     }
